@@ -46,8 +46,8 @@ $from = "Mailgun Sandbox <postmaster@{$domain}>";
 $result = $mgClient->messages()->send($domain,
 array   (  
           'from'    => "{$input['name']} <{$input['email']}>",      
-          'to'      => 'Your Name <name@your-email.com>',
-          'subject' => 'Hello Your-Name',
+          'to'      => 'Chad <chad@killer-sites.com>',
+          'subject' => 'Hello From MicroTrain2105',
           'text'    => $input['message']
         )
     );   

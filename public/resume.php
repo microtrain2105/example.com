@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
-      <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-      <link rel="manifest" href="site.webmanifest">
-    <title>MicroTrain2105 Resume</title>
-      <meta name="description" content="MicroTrain2105 resume page">
-      <meta name="keywords" content="full stack, web developer, full stack web developer, CSM, Scrum Master">
-  </head>
-    <body>
-      <header>
-        <span class="logo">MicroTrain2105</span>
-        <a id="toggleMenu">Menu<a>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+<?php
+require '../core/bootstrap.php';
+
+//Build the page metadata
+$meta = [];
+$meta['description'] = "Resume MicroTrain2105 For Web Development";
+$meta['keywords'] = "resume, MicroTrain2105, Web development, web development";
+
+
+$content = <<<EOT
+        <main>
     <main>
       <section class="intro">
         <h1>MicroTrain2105</h1>
@@ -147,21 +132,6 @@
         <p>Covering the principles of Agile and Scrum methodology through a combination of robust simulations, hands-on experimentation and high-quality instruction. Currently learning the fundamentals of Scrum and how to facilitate, coach and lead an Agile project.</p>
       </section>
       </main>
-      <script>
+    EOT;
 
-        var toggleMenu = document.getElementById('toggleMenu');
-        var nav = document.querySelector('nav');
-        toggleMenu.addEventListener(
-          'click',
-          function(){
-            if(nav.style.display=='block'){
-              nav.style.display='none';
-            }else{
-              nav.style.display='block';
-            }
-          }
-        );
-      </script>
-    
-    </body>
-</html>
+    include '../core/layout.php';

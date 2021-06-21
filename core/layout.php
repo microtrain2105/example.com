@@ -31,9 +31,9 @@ function active($name){
 <?php endif; ?>
 <!-- End sanitized content -->
     <meta charset="UTF-8">
-    <title>Hello, I am MicroTrain2101</title>
+    <title>Hello, I am MicroTrain2105</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <meta name="description" content="Microtrain2101 home page">
+    <!-- <meta name="description" content="Microtrain2105 home page">
     <meta name="keywords" content="full stack, web developer, full stack web developer, CSM, Scrum Master, home page"> -->
     <!-- <link rel="stylesheet" type="text/css" href="../dist/css/main.min.css"> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -46,7 +46,7 @@ function active($name){
       <div class="container">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">MicroTrain2101</a>
+            <a class="navbar-brand" href="#">MicroTrain2105</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -94,7 +94,7 @@ function active($name){
           <!-- Footer Links -->
 
           <!-- Copyright -->
-          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <div class="footer-copyright text-center py-3">© 2021 Copyright:
                 <a href="terms.php">Terms</a> |
                 <a href="privacy.php">Privacy</a> |
                 <a href="cookies.php">Cookies</a>

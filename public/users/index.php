@@ -4,8 +4,10 @@ require '../../core/db_connect.php';
 require '../../core/session.php';
 checkSession();
 
-$meta=[];
-$meta['title']="MicroTrain's Blog";
+//Build the page metadata
+$meta = [];
+$meta['description'] = "Users MicroTrain2105 User List";
+$meta['keywords'] = "users, MicroTrain2105, user list";
 
 $content="<h1>MicroTrains Users</h1>";
 $stmt = $pdo->query('SELECT * FROM users');
